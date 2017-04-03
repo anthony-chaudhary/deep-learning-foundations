@@ -1,3 +1,5 @@
 DLND-your-first-network/dlnd-your-first-neural-network.zip
 fast-style-transfer-master-credit-lengstrom
 play/sentiment-analysis-with-TFLearn/.ipynb_checkpoints/Sentiment Analysis with TFLearn-checkpoint.ipynb
+*.gz
+play/digit-recognition-with-tflearn/.ipynb_checkpoints/Handwritten Digit Recognition with TFLearn-checkpoint.ipynb
