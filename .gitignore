@@ -3,3 +3,6 @@ fast-style-transfer-master-credit-lengstrom
 play/sentiment-analysis-with-TFLearn/.ipynb_checkpoints/Sentiment Analysis with TFLearn-checkpoint.ipynb
 *.gz
 play/digit-recognition-with-tflearn/.ipynb_checkpoints/Handwritten Digit Recognition with TFLearn-checkpoint.ipynb
+sentiment-network/.ipynb_checkpoints/Sentiment Classification - Mini Project 6-checkpoint.ipynb
+play/sentiment-analysis-with-TFLearn/Sentiment Analysis with TFLearn.ipynb
+image-classification-project-2/.ipynb_checkpoints/dlnd_image_classification-checkpoint.ipynb
