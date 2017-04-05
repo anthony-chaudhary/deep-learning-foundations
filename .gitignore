@@ -6,3 +6,6 @@ play/digit-recognition-with-tflearn/.ipynb_checkpoints/Handwritten Digit Recogni
 sentiment-network/.ipynb_checkpoints/Sentiment Classification - Mini Project 6-checkpoint.ipynb
 play/sentiment-analysis-with-TFLearn/Sentiment Analysis with TFLearn.ipynb
 image-classification-project-2/.ipynb_checkpoints/dlnd_image_classification-checkpoint.ipynb
+image-classification-project-2/cifar-10-batches-py/data_batch_1
+*.p
+*.pyc
