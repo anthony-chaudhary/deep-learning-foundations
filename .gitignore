@@ -9,3 +9,4 @@ image-classification-project-2/.ipynb_checkpoints/dlnd_image_classification-chec
 image-classification-project-2/cifar-10-batches-py/data_batch_1
 *.p
 *.pyc
+cifar-10-batches-py
