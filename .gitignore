@@ -10,3 +10,8 @@ image-classification-project-2/cifar-10-batches-py/data_batch_1
 *.p
 *.pyc
 cifar-10-batches-py
+*.index
+*.db
+*.meta
+*.data
+*.data*
