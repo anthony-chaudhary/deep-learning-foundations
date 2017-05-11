@@ -15,3 +15,5 @@ cifar-10-batches-py
 *.meta
 *.data
 *.data*
+*.db
+image-classification-project-2/ignore-submissions/submission1.zip
