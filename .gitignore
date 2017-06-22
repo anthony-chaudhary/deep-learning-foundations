@@ -19,3 +19,10 @@ cifar-10-batches-py
 image-classification-project-2/ignore-submissions/submission1.zip
 gans/dcgan-svhn/samples.pkl
 data/
+p5-face_generation/model_checkpoints/checkpoint
+p5-face_generation/.ipynb_checkpoints/dlnd_face_generation-checkpoint.ipynb
+p5-face_generation/.ipynb_checkpoints/dlnd_face_generation-wasserstien-improved-gan-checkpoint.ipynb
+p5-face_generation/dlnd_face_generation.zip
+p5-face_generation/dlnd_face_generation.html
+*.DESKTOP-V4CJITU
+p5-face_generation/dlnd_face_generation-wasserstien-improved-gan.ipynb
