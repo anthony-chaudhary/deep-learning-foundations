@@ -12,20 +12,27 @@ def load_data(path):
     Load Dataset from File
     """
     input_file = os.path.join(path)
+    text = []
     with open(input_file, 'r', encoding='utf-8') as f:
-        return f.read()
+        print("Loaded file, starting operations...")
+        
+        for i, d in enumerate(f):
+            text.append(d.lower())
+            if i % 100000 == 0: print(i, d)
+            
+        return text
 
 
-def preprocess_and_save_data(source_path, target_path, text_to_ids):
+def preprocess_and_save_data(source_text, target_text, text_to_ids):
     """
     Preprocess Text Data.  Save to to file.
     """
     # Preprocess
-    source_text = load_data(source_path)
-    target_text = load_data(target_path)
+    #source_text = load_data(source_path)
+    #target_text = load_data(target_path)
 
-    source_text = source_text.lower()
-    target_text = target_text.lower()
+    #source_text = source_text.lower()
+    #target_text = target_text.lower()
 
     source_vocab_to_int, source_int_to_vocab = create_lookup_tables(source_text)
     target_vocab_to_int, target_int_to_vocab = create_lookup_tables(target_text)
@@ -52,13 +59,17 @@ def create_lookup_tables(text):
     """
     Create lookup tables for vocabulary
     """
-    vocab = set(text.split())
+    #vocab = set(text.split())
+    vocab = set(text)
     vocab_to_int = copy.copy(CODES)
 
     for v_i, v in enumerate(vocab, len(CODES)):
         vocab_to_int[v] = v_i
+        print(v)
 
     int_to_vocab = {v_i: v for v, v_i in vocab_to_int.items()}
+
+    print("Lookup tables complete")
 
     return vocab_to_int, int_to_vocab
 
